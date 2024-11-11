@@ -1,0 +1,230 @@
+@media screen and (max-width:1366px) {
+
+    /* front page */
+    .front-page img {
+        height: 500px;
+        width: 500px;
+    }
+
+
+    /* tiger page */
+    .tiger-img img {
+        width: 500px;
+        height: 500px;
+    }
+
+
+    /* ele page */
+    .ele-image img {
+        width: 450px;
+        height: 450px;
+    }
+
+
+    /* footer */
+    .footer-container {
+        height: 40vh;
+    }
+}
+
+
+
+@media screen and (max-width:765px) {
+
+    /* header */
+
+    header {
+        height: 91vh;
+    }
+
+    .header-container {
+        height: 85%;
+        width: 95%;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .nav-logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .front-page p {
+        font-size: 1.1rem;
+        letter-spacing: 25px;
+    }
+
+    .front-page h1 {
+        font-size: 1.5rem;
+        letter-spacing: 15px;
+    }
+
+    .front-page img {
+        height: 410px;
+        width: 410px;
+        bottom: 40px;
+    }
+
+    /* header end */
+
+    /* responsive tab */
+
+    .tab {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 1111;
+        bottom: 0;
+        width: 100%;
+        height: 9vh;
+        background: rgba(255, 255, 255, 0.125);
+        backdrop-filter: blur(10px);
+        border-top: 2px solid #ffffff3e;
+    }
+
+    .tab a {
+        width: 60px;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab a i {
+        font-size: 1.4rem;
+        color: #ffffff;
+    }
+
+    /* responsive tab end */
+
+    /* tiger page */
+    .tiger {
+        height: 91vh;
+    }
+
+    .tiger-container {
+        height: 85%;
+        width: 95%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .tiger-content {
+        width: 90%;
+        height: fit-content;
+    }
+
+    .tiger-content h3 {
+        font-size: 1rem;
+    }
+
+    .tiger-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .tiger-content p {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
+    .tiger-content a button {
+        width: 120px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+
+    .tiger-img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .tiger-img img {
+        width: 240px;
+        height: 240px;
+    }
+
+    /* tiger page end */
+
+
+    /* ele page */
+
+    .ele-page {
+        height: 91vh;
+    }
+
+    .ele-container {
+        height: 85%;
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ele-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ele page end */
+
+    /* form  */
+
+    .form {
+        height: 91vh;
+    }
+
+    .form-container {
+        height: 85%;
+        width: 95%;
+    }
+
+    .form-heading h3 {
+        font-size: 1rem;
+    }
+
+
+    .form-heading h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .form-inputs input {
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .form-btn a button {
+        width: 150px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+    /* form  end */
+
+    /* footer */
+
+    .footer-container {
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+        height: fit-content;
+    }
+
+    .footer-box h5 {
+        font-size: 1.1rem;
+    }
+
+    .footer-links ul li {
+        font-size: 0.8rem;
+        color: #ffffff;
+    }
+
+
+
+
+}
